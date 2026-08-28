@@ -1,0 +1,14 @@
+public class maxprofit {
+    public static void main(String[]args){
+        int profit[]={-2,-3,-1,4,-5};
+
+        int max=profit[0];
+
+        for(int i=1;1<profit.length;i++){
+            if (profit[1]>max){
+                max=profit[i];
+            }
+        }
+        System.out.println("max profit="+max);
+    }
+}
